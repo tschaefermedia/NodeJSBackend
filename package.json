@@ -1,7 +1,43 @@
 {
-  "name": "$name$",
-  "version": "$version$",
+  "name": "nodejsbackend",
+  "version": "0.0.1",
   "dependencies": {
-    $END$
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.3",
+    "compression": "^1.7.3",
+    "dotenv": "^6.1.0",
+    "express": "^4.16.4",
+    "express-validation": "^1.0.2",
+    "helmet": "^3.15.0",
+    "http-status": "^1.2.0",
+    "joi": "^14.0.5",
+    "jsonwebtoken": "^8.3.0",
+    "mongoose": "^5.3.7",
+    "mongoose-unique-validator": "^2.0.2",
+    "morgan": "^1.9.1",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0",
+    "passwort": "^1.0.4",
+    "validator": "^10.9.0"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "description": "A basic nodeJS backend as basis for further projects",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tschaefermedia/NodeJSBackend.git"
+  },
+  "author": "Tobias Schaefer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tschaefermedia/NodeJSBackend/issues"
+  },
+  "homepage": "https://github.com/tschaefermedia/NodeJSBackend#readme",
+  "devDependencies": {
+    "nodemon": "^1.18.5"
   }
 }
